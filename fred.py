@@ -7,7 +7,7 @@ import pandas as pd
 # source code
 class fred:
     def __init__(self,
-                 key='0e661dd72c588efd3a141e6e37f47bac',
+                 key,
                  information=['frequency','id',
                               'observation_start','observation_end','title'],
                 ):
